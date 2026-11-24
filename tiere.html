@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unsere Tiere &amp; Unterstützung – Mimi's Rainbow Haven</title>
+  <meta name="description" content="Steckbriefe der geretteten Schafe und Ziegen auf Mimi's Rainbow Haven sowie alle Möglichkeiten, den Lebenshof mit Spenden, Patenschaften oder Mithilfe zu unterstützen.">
+  <meta name="theme-color" content="#46543c">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Hauptinhalt springen</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark" viewBox="0 0 48 28" aria-hidden="true" focusable="false">
+          <path d="M4 26a20 20 0 0 1 40 0" fill="none" stroke="#c96f4a" stroke-width="4" stroke-linecap="round"/>
+          <path d="M10 26a14 14 0 0 1 28 0" fill="none" stroke="#dba44f" stroke-width="4" stroke-linecap="round"/>
+          <path d="M16 26a8 8 0 0 1 16 0" fill="none" stroke="#7a8b6f" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <span class="brand__text">
+          <strong class="brand__name">Mimi's Rainbow Haven</strong>
+          <span class="brand__claim">Lebenshof für Schafe &amp; Ziegen</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" id="navToggle" aria-controls="primaryNav" aria-expanded="false">
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+        <span class="nav-toggle__text">Menü</span>
+      </button>
+
+      <nav class="site-nav" id="primaryNav" aria-label="Hauptnavigation">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="index.html">Startseite</a></li>
+          <li><a class="site-nav__link" href="tiere.html" aria-current="page">Unsere Tiere</a></li>
+          <li><a class="site-nav__link" href="ueber-uns.html">Über uns &amp; Kontakt</a></li>
+          <li><a class="site-nav__link site-nav__link--cta" href="#unterstuetzen">Unterstützen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Seitenkopf ============ -->
+    <section class="page-head" aria-labelledby="page-title">
+      <div class="container">
+        <p class="eyebrow">Unsere Tiere</p>
+        <h1 id="page-title">Sechs Geschichten, die gut ausgegangen sind</h1>
+        <p class="page-head__lead">
+          Alle Tiere auf diesen Steckbriefen leben dauerhaft bei uns. Tippen oder klicken
+          Sie auf ein Foto, um es vergrößert zu betrachten.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ Tier-Grid ============ -->
+    <section class="section" aria-labelledby="animals-title">
+      <div class="container">
+        <h2 class="visually-hidden" id="animals-title">Steckbriefe unserer Bewohner</h2>
+
+        <ul class="animal-grid" id="animalGrid">
+
+          <!-- Mimi -->
+          <li id="mimi">
+            <article class="animal" aria-labelledby="mimi-name">
+              <button class="animal__media" type="button"
+                      data-lightbox
+                      data-caption="Mimi, unsere Namensgeberin – Ziege, 9 Jahre alt."
+                      data-full="img/mimi.jpg">
+                <img src="img/mimi.jpg"
+                     alt="Hellbeige Ziege mit geschwungenen Hörnern schaut von nahem freundlich in die Kamera, im Hintergrund eine zweite Ziege auf der Weide."
+                     width="1280" height="853" loading="lazy" data-fallback="goat">
+                <span class="animal__zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/>
+                  </svg>
+                </span>
+                <span class="visually-hidden">Foto von Mimi vergrößern</span>
+              </button>
+              <div class="animal__body">
+                <h3 class="animal__name" id="mimi-name">Mimi <span class="animal__tag">Namensgeberin</span></h3>
+                <dl class="animal__facts">
+                  <dt>Art</dt><dd>Hausziege</dd>
+                  <dt>Alter</dt><dd>9 Jahre</dd>
+                  <dt>Bei uns seit</dt><dd>2017</dd>
+                  <dt>Charakter</dt><dd>dickköpfig, anhänglich, Chefin</dd>
+                </dl>
+                <p class="animal__story">
+                  Mimi stand als „wertlos“ neben einem Viehanhänger, konnte kaum gehen und
+                  wog 20&nbsp;Kilo zu wenig. Heute entscheidet sie, wann die Herde zur Weide
+                  geht und wann nicht. Brot auf dem Gartentisch betrachtet sie als Angebot.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- Fritzi -->
+          <li id="fritzi">
+            <article class="animal" aria-labelledby="fritzi-name">
+              <button class="animal__media" type="button"
+                      data-lightbox
+                      data-caption="Fritzi liebt die Morgensonne – Bergschaf, 4 Jahre alt."
+                      data-full="img/fritzi.jpg">
+                <img src="img/fritzi.jpg"
+                     alt="Weißes Schaf mit langen Hängeohren und dichter, lockiger Wolle steht aufmerksam vor einer grünen Weide."
+                     width="1280" height="1920" loading="lazy" data-fallback="sheep">
+                <span class="animal__zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/>
+                  </svg>
+                </span>
+                <span class="visually-hidden">Foto von Fritzi vergrößern</span>
+              </button>
+              <div class="animal__body">
+                <h3 class="animal__name" id="fritzi-name">Fritzi</h3>
+                <dl class="animal__facts">
+                  <dt>Art</dt><dd>Tiroler Bergschaf</dd>
+                  <dt>Alter</dt><dd>4 Jahre</dd>
+                  <dt>Bei uns seit</dt><dd>2022</dd>
+                  <dt>Charakter</dt><dd>vorsichtig, verfressen, treu</dd>
+                </dl>
+                <p class="animal__story">
+                  Fritzi kam als Lamm aus einer Beschlagnahmung – 60 Schafe auf einer
+                  Fläche für zehn. Er brauchte ein ganzes Jahr, bis er Menschen nahe
+                  kommen konnte. Heute steht er als Erster am Zaun, wenn der Futtereimer klappert.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- Rosa -->
+          <li id="rosa">
+            <article class="animal" aria-labelledby="rosa-name">
+              <button class="animal__media" type="button"
+                      data-lightbox
+                      data-caption="Rosa orientiert sich am Glöckchen ihrer Freundin – Ziege, 6 Jahre alt."
+                      data-full="img/rosa.jpg">
+                <img src="img/rosa.jpg"
+                     alt="Weiße Ziege mit kräftigen Hörnern, Hängeohren und langem Kinnbart steht ruhig auf einem sandigen Auslauf."
+                     width="1280" height="1000" loading="lazy" data-fallback="goat">
+                <span class="animal__zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/>
+                  </svg>
+                </span>
+                <span class="visually-hidden">Foto von Rosa vergrößern</span>
+              </button>
+              <div class="animal__body">
+                <h3 class="animal__name" id="rosa-name">Rosa <span class="animal__tag">blind</span></h3>
+                <dl class="animal__facts">
+                  <dt>Art</dt><dd>Hausziege</dd>
+                  <dt>Alter</dt><dd>6 Jahre</dd>
+                  <dt>Bei uns seit</dt><dd>2020</dd>
+                  <dt>Charakter</dt><dd>ruhig, mutig, menschenbezogen</dd>
+                </dl>
+                <p class="animal__story">
+                  Nach einer unbehandelten Augenentzündung ist Rosa vollständig blind. Sie
+                  kennt jeden Meter des Hofes und folgt dem Glöckchen ihrer besten Freundin
+                  Lotte. Wer sie besucht, soll sie bitte vorher ansprechen – berühren kommt danach.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- Hugo -->
+          <li id="hugo">
+            <article class="animal" aria-labelledby="hugo-name">
+              <button class="animal__media" type="button"
+                      data-lightbox
+                      data-caption="Hugo durfte seine Hörner behalten – Schafbock, 3 Jahre alt."
+                      data-full="img/hugo.jpg">
+                <img src="img/hugo.jpg"
+                     alt="Schafbock mit hellem Fell und großen, spiralförmig gedrehten Hörnern blickt in die Kamera."
+                     width="1280" height="820" loading="lazy" data-fallback="sheep">
+                <span class="animal__zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/>
+                  </svg>
+                </span>
+                <span class="visually-hidden">Foto von Hugo vergrößern</span>
+              </button>
+              <div class="animal__body">
+                <h3 class="animal__name" id="hugo-name">Hugo</h3>
+                <dl class="animal__facts">
+                  <dt>Art</dt><dd>Schafbock (Krainer Steinschaf)</dd>
+                  <dt>Alter</dt><dd>3 Jahre</dd>
+                  <dt>Bei uns seit</dt><dd>2023</dd>
+                  <dt>Charakter</dt><dd>gelassen, selbstbewusst, verschmust</dd>
+                </dl>
+                <p class="animal__story">
+                  Hugo sollte geschlachtet werden, weil seine Hörner für die Stallhaltung
+                  „unpraktisch“ waren. Er kam mit einem Tag Vorlauf zu uns. Böcke gelten als
+                  schwierig – Hugo legt sich beim Striegeln hin und schläft ein.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- Pauline -->
+          <li id="pauline">
+            <article class="animal" aria-labelledby="pauline-name">
+              <button class="animal__media" type="button"
+                      data-lightbox
+                      data-caption="Pauline, unsere Seniorin, auf ihrem Lieblingsplatz im Stroh."
+                      data-full="img/pauline.jpg">
+                <img src="img/pauline.jpg"
+                     alt="Schaf mit schwarzem Gesicht und heller Wolle liegt entspannt auf einer Strohschütte und hat die Augen halb geschlossen."
+                     width="1280" height="887" loading="lazy" data-fallback="sheep">
+                <span class="animal__zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/>
+                  </svg>
+                </span>
+                <span class="visually-hidden">Foto von Pauline vergrößern</span>
+              </button>
+              <div class="animal__body">
+                <h3 class="animal__name" id="pauline-name">Pauline <span class="animal__tag">Seniorin</span></h3>
+                <dl class="animal__facts">
+                  <dt>Art</dt><dd>Schwarzköpfiges Fleischschaf</dd>
+                  <dt>Alter</dt><dd>11 Jahre</dd>
+                  <dt>Bei uns seit</dt><dd>2019</dd>
+                  <dt>Charakter</dt><dd>würdevoll, geduldig, unbestechlich</dd>
+                </dl>
+                <p class="animal__story">
+                  Pauline hat acht Lämmer geboren, die alle weggebracht wurden. Bei uns hat
+                  sie zum ersten Mal einen ganzen Sommer nur für sich gehabt. Sie braucht
+                  Spezialfutter und Schmerzmittel für ihre Gelenke – und ihren tiefen
+                  Strohplatz gleich neben der Stalltür.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- Nemo -->
+          <li id="nemo">
+            <article class="animal" aria-labelledby="nemo-name">
+              <button class="animal__media" type="button"
+                      data-lightbox
+                      data-caption="Nemo testet jedes Hindernis persönlich – Ziege, 2 Jahre alt."
+                      data-full="img/nemo.jpg">
+                <img src="img/nemo.jpg"
+                     alt="Schwarz-weiß gescheckte Ziege balanciert mit allen vier Beinen auf einem alten Autoreifen in der Koppel."
+                     width="1280" height="718" loading="lazy" data-fallback="goat">
+                <span class="animal__zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/><path d="M11 8v6"/><path d="M8 11h6"/>
+                  </svg>
+                </span>
+                <span class="visually-hidden">Foto von Nemo vergrößern</span>
+              </button>
+              <div class="animal__body">
+                <h3 class="animal__name" id="nemo-name">Nemo <span class="animal__tag">Ausbrecher</span></h3>
+                <dl class="animal__facts">
+                  <dt>Art</dt><dd>Hausziege (bunter Mischling)</dd>
+                  <dt>Alter</dt><dd>2 Jahre</dd>
+                  <dt>Bei uns seit</dt><dd>2024</dd>
+                  <dt>Charakter</dt><dd>frech, verspielt, erfinderisch</dd>
+                </dl>
+                <p class="animal__story">
+                  Nemo wurde als „Kinderspielzeug“ gekauft und nach vier Monaten im Internet
+                  weiterverkauft. Er hält uns mit Zaunkontrollen beschäftigt, klettert auf
+                  alles, was stillsteht, und hat bisher drei Varianten gefunden, Heuballen
+                  aufzuschneiden.
+                </p>
+              </div>
+            </article>
+          </li>
+
+        </ul>
+
+        <p class="section__foot muted">
+          Insgesamt leben 23 Tiere bei uns. Alle weiteren stellen wir bei den Hofführungen
+          persönlich vor.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ Unterstützung ============ -->
+    <section class="section section--alt" aria-labelledby="support-title" id="unterstuetzen">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Unterstützen</p>
+          <h2 id="support-title">So können Sie helfen</h2>
+          <p class="section__lead">
+            Wir bekommen keine öffentliche Förderung. Jedes Heuballen, jede Entwurmung und
+            jeder Klauenschnitt wird von Menschen wie Ihnen bezahlt.
+          </p>
+        </header>
+
+        <div class="support">
+
+          <article class="support__card support__card--highlight">
+            <p class="support__kicker">Tierpatenschaft</p>
+            <h3>Werden Sie Pate einer Nase</h3>
+            <p>
+              Eine Patenschaft ist die verlässlichste Hilfe: Sie deckt Futter, Tierarzt und
+              Pflege eines bestimmten Tieres. Sie erhalten eine Patenurkunde, zwei
+              Foto-Updates pro Jahr und freien Eintritt zu unseren Hoffesten.
+            </p>
+            <ul class="pricelist">
+              <li><span class="pricelist__amount">10&nbsp;€</span><span class="pricelist__desc">pro Monat – Teilpatenschaft</span></li>
+              <li><span class="pricelist__amount">25&nbsp;€</span><span class="pricelist__desc">pro Monat – Vollpatenschaft</span></li>
+              <li><span class="pricelist__amount">120&nbsp;€</span><span class="pricelist__desc">einmalig pro Jahr</span></li>
+            </ul>
+            <p>
+              <a class="btn btn--primary" href="ueber-uns.html#kontakt">Patenschaft anfragen</a>
+            </p>
+          </article>
+
+          <article class="support__card">
+            <p class="support__kicker">Geldspende</p>
+            <h3>Einmalig oder regelmäßig spenden</h3>
+            <p>
+              Freie Spenden setzen wir dort ein, wo es gerade am dringendsten ist – meist
+              bei Tierarztrechnungen und beim Heueinkauf im Herbst.
+            </p>
+            <dl class="deflist deflist--bank">
+              <dt>Empfänger</dt><dd>Verein Mimi's Rainbow Haven</dd>
+              <dt>IBAN</dt><dd><span class="iban">AT00 0000 0000 0000 0000</span></dd>
+              <dt>Verwendungszweck</dt><dd>Spende Lebenshof</dd>
+            </dl>
+            <p class="muted">Gerne stellen wir eine Spendenbestätigung aus – bitte Adresse angeben.</p>
+          </article>
+
+          <article class="support__card">
+            <p class="support__kicker">Sachspende</p>
+            <h3>Was wir immer brauchen</h3>
+            <ul class="ticklist">
+              <li>Heu und Stroh in Kleinballen (bio, nicht verregnet)</li>
+              <li>Mineralfutter und Leckerlis ohne Zucker</li>
+              <li>Schubkarren, Mistgabeln, Weidezaunmaterial</li>
+              <li>Baumaterial für den neuen Senioren-Unterstand</li>
+            </ul>
+            <p>
+              <a class="link-arrow" href="ueber-uns.html#kontakt">Sachspende abstimmen</a>
+            </p>
+          </article>
+
+          <article class="support__card">
+            <p class="support__kicker">Ehrenamt</p>
+            <h3>Zeit statt Geld</h3>
+            <p>
+              Jeden Samstag von 9 bis 13 Uhr ist Hoftag: ausmisten, Zäune richten, Heu
+              umschichten, Tiere versorgen. Keine Vorkenntnisse nötig, Einweisung inklusive.
+            </p>
+            <ul class="ticklist">
+              <li>Ab 16 Jahren (jünger mit Begleitperson)</li>
+              <li>Feste Schuhe und Arbeitshandschuhe mitbringen</li>
+              <li>Auch stundenweise oder einmalig möglich</li>
+            </ul>
+            <p>
+              <a class="btn btn--outline" href="ueber-uns.html#kontakt">Beim Hoftag mithelfen</a>
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Lightbox (wird per JS gesteuert) ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true"
+       aria-labelledby="lightboxCaption" hidden>
+    <div class="lightbox__backdrop" data-lightbox-close></div>
+    <figure class="lightbox__figure">
+      <!-- Platzhalter (1x1 transparent); Quelle und alt-Text setzt js/script.js beim Öffnen -->
+      <img class="lightbox__image" id="lightboxImage" alt=""
+           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+      <figcaption class="lightbox__caption" id="lightboxCaption"></figcaption>
+    </figure>
+
+    <button class="lightbox__btn lightbox__btn--close" type="button" id="lightboxClose">
+      <span aria-hidden="true">&times;</span>
+      <span class="visually-hidden">Galerie schließen</span>
+    </button>
+    <button class="lightbox__btn lightbox__btn--prev" type="button" id="lightboxPrev">
+      <span aria-hidden="true">&#8249;</span>
+      <span class="visually-hidden">Vorheriges Bild</span>
+    </button>
+    <button class="lightbox__btn lightbox__btn--next" type="button" id="lightboxNext">
+      <span aria-hidden="true">&#8250;</span>
+      <span class="visually-hidden">Nächstes Bild</span>
+    </button>
+    <p class="lightbox__counter" id="lightboxCounter" aria-live="polite"></p>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__col">
+        <p class="site-footer__brand">Mimi's Rainbow Haven</p>
+        <p>Lebenshof für Schafe &amp; Ziegen.<br>Kein Streichelzoo. Ein Zuhause.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Fußzeilen-Navigation">
+        <h2 class="site-footer__title">Seiten</h2>
+        <ul class="site-footer__list">
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="tiere.html">Unsere Tiere</a></li>
+          <li><a href="ueber-uns.html">Über uns &amp; Kontakt</a></li>
+          <li><a href="tiere.html#unterstuetzen">Unterstützen</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Hof besuchen</h2>
+        <address>
+          Mimi's Rainbow Haven<br>
+          Hofstelle (Besuch nur mit Termin)<br>
+          <a href="https://maps.app.goo.gl/F7PwFQZy1q6itz8a9" target="_blank" rel="noopener">
+            Standort in Google&nbsp;Maps öffnen
+          </a><br>
+          <a href="mailto:hallo@mimis-rainbow-haven.at">hallo@mimis-rainbow-haven.at</a>
+        </address>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>&copy; <span data-current-year>2026</span> Mimi's Rainbow Haven. &middot;
+        Bildnachweis: Platzhalterfotos von Wikimedia Commons (CC&nbsp;BY-SA), Details in
+        <a href="img/CREDITS.md">img/CREDITS.md</a>.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mimi's Rainbow Haven – Lebenshof für Schafe &amp; Ziegen</title>
+  <meta name="description" content="Mimi's Rainbow Haven ist ein Lebenshof für gerettete Schafe und Ziegen. Hier dürfen Tiere einfach bleiben – ein Leben lang, ohne Gegenleistung.">
+  <meta name="theme-color" content="#46543c">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Hauptinhalt springen</a>
+
+  <!-- ============ Kopfbereich mit Navigation ============ -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark" viewBox="0 0 48 28" aria-hidden="true" focusable="false">
+          <path d="M4 26a20 20 0 0 1 40 0" fill="none" stroke="#c96f4a" stroke-width="4" stroke-linecap="round"/>
+          <path d="M10 26a14 14 0 0 1 28 0" fill="none" stroke="#dba44f" stroke-width="4" stroke-linecap="round"/>
+          <path d="M16 26a8 8 0 0 1 16 0" fill="none" stroke="#7a8b6f" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <span class="brand__text">
+          <strong class="brand__name">Mimi's Rainbow Haven</strong>
+          <span class="brand__claim">Lebenshof für Schafe &amp; Ziegen</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" id="navToggle" aria-controls="primaryNav" aria-expanded="false">
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+        <span class="nav-toggle__text">Menü</span>
+      </button>
+
+      <nav class="site-nav" id="primaryNav" aria-label="Hauptnavigation">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="index.html" aria-current="page">Startseite</a></li>
+          <li><a class="site-nav__link" href="tiere.html">Unsere Tiere</a></li>
+          <li><a class="site-nav__link" href="ueber-uns.html">Über uns &amp; Kontakt</a></li>
+          <li><a class="site-nav__link site-nav__link--cta" href="tiere.html#unterstuetzen">Unterstützen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <img
+        class="hero__image"
+        src="img/hof-hero.jpg"
+        alt="Eine Ziege steht auf der Bergwiese vor einem alten Bauernhaus mit Blumenbalkon, dahinter Nadelwald und ein Felsmassiv."
+        width="1920" height="1280" fetchpriority="high" data-fallback="goat">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="hero__kicker">Ein Zuhause für immer</p>
+        <h1 class="hero__title" id="hero-title">Hier endet die Angst – und das Leben beginnt noch einmal.</h1>
+        <p class="hero__text">
+          Auf Mimi's Rainbow Haven leben Schafe und Ziegen, die niemand mehr wollte.
+          Sie müssen nichts leisten, nichts hergeben und nie wieder auf einen Transporter.
+          Sie dürfen einfach bleiben – bis zum letzten Tag.
+        </p>
+        <p class="hero__actions">
+          <a class="btn btn--primary" href="tiere.html">Unsere Tiere kennenlernen</a>
+          <a class="btn btn--ghost" href="tiere.html#unterstuetzen">Patenschaft &amp; Spenden</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ Einführung ============ -->
+    <section class="section section--intro" aria-labelledby="intro-title">
+      <div class="container grid-2">
+        <div class="prose">
+          <p class="eyebrow">Willkommen</p>
+          <h2 id="intro-title">Ein kleiner Hof mit einem großen Versprechen</h2>
+          <p>
+            Es begann mit einer alten Ziege namens <strong>Mimi</strong>, die am Rand einer
+            Weide stand und nicht mehr aufstehen konnte. Heute, viele Jahre später, grasen auf
+            unseren Wiesen 23 Schafe und Ziegen – jedes mit einer Geschichte, die man ihnen
+            nicht mehr ansieht.
+          </p>
+          <p>
+            Wir sind kein Streichelzoo und keine Zucht. Wir sind ein <strong>Lebenshof</strong>:
+            Wer hier ankommt, bleibt. Für immer. Das ist das ganze Konzept – und es ist jeden
+            Tag Arbeit, Heu, Tierarztkosten und ziemlich viel Liebe.
+          </p>
+          <p>
+            <a class="link-arrow" href="ueber-uns.html">Unsere ganze Geschichte lesen</a>
+          </p>
+        </div>
+
+        <figure class="figure figure--offset">
+          <img
+            src="img/weide.jpg"
+            alt="Nahaufnahme eines braunen Schafes mit dichter, lockiger Wolle, das aufmerksam zur Seite blickt."
+            width="1280" height="1920" loading="lazy" data-fallback="sheep">
+          <figcaption>Morgenrunde auf der oberen Weide – die ruhigste Stunde des Tages.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ Mission ============ -->
+    <section class="section section--alt" aria-labelledby="mission-title" id="mission">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Unsere Mission</p>
+          <h2 id="mission-title">Drei Versprechen, die wir jeden Tag halten</h2>
+          <p class="section__lead">
+            Wir können die Welt nicht retten. Aber wir können für diese Tiere hier alles
+            ändern – und zeigen, dass Schafe und Ziegen mehr sind als ein Produkt.
+          </p>
+        </header>
+
+        <ul class="cards cards--3">
+          <li>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20.5s-7.5-4.6-7.5-10a4.3 4.3 0 0 1 7.5-2.8A4.3 4.3 0 0 1 19.5 10.5c0 5.4-7.5 10-7.5 10z"/>
+                </svg>
+              </span>
+              <h3>Aufnehmen</h3>
+              <p>
+                Wir holen Tiere aus Beschlagnahmungen, aus der Schlachtkette und von
+                Menschen, die nicht mehr weiterwissen – auch die alten, kranken und
+                „unrentablen“.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M10 21v-6h4v6"/>
+                </svg>
+              </span>
+              <h3>Bleiben lassen</h3>
+              <p>
+                Kein Weiterverkauf, keine Vermittlung, keine Bedingungen. Jedes Tier erhält
+                lebenslange Versorgung, Tierarzt, Hufpflege und eine stabile Herde um sich.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3v3"/><path d="M12 18v3"/><path d="M4.2 7.5l2.6 1.5"/><path d="M17.2 15l2.6 1.5"/>
+                  <path d="M4.2 16.5l2.6-1.5"/><path d="M17.2 9l2.6-1.5"/><circle cx="12" cy="12" r="3.2"/>
+                </svg>
+              </span>
+              <h3>Sichtbar machen</h3>
+              <p>
+                Bei Hofführungen und Schulbesuchen lernen Menschen Schafe und Ziegen als
+                Individuen kennen. Wer Pauline einmal getroffen hat, denkt anders über sie nach.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Zahlen ============ -->
+    <section class="section section--figures" aria-labelledby="figures-title">
+      <div class="container">
+        <h2 class="visually-hidden" id="figures-title">Der Hof in Zahlen</h2>
+        <ul class="figures">
+          <li class="figures__item"><span class="figures__value">23</span><span class="figures__label">Tiere in Dauerobhut</span></li>
+          <li class="figures__item"><span class="figures__value">2017</span><span class="figures__label">gegründet mit Ziege Mimi</span></li>
+          <li class="figures__item"><span class="figures__value">4,5&nbsp;ha</span><span class="figures__label">Weide, Wald und Unterstände</span></li>
+          <li class="figures__item"><span class="figures__value">100&nbsp;%</span><span class="figures__label">ehrenamtlich getragen</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Teaser Tiere ============ -->
+    <section class="section" aria-labelledby="teaser-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Unsere Bewohner</p>
+          <h2 id="teaser-title">Jede Nase hat einen Namen</h2>
+          <p class="section__lead">
+            Mimi, Fritzi, Rosa, Hugo, Pauline und Nemo – sechs von 23. Lernen Sie sie kennen,
+            bevor Sie sich entscheiden, wen Sie unterstützen möchten.
+          </p>
+        </header>
+
+        <ul class="teaser-grid">
+          <li>
+            <a class="teaser" href="tiere.html#mimi">
+              <img
+                src="img/mimi.jpg"
+                alt="Hellbeige Ziege mit geschwungenen Hörnern schaut von nahem freundlich in die Kamera." width="1280" height="853" loading="lazy" data-fallback="goat">
+              <span class="teaser__label">Mimi <span class="teaser__meta">Ziege, 9 Jahre</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="teaser" href="tiere.html#fritzi">
+              <img
+                src="img/fritzi.jpg"
+                alt="Weißes Schaf mit langen Hängeohren und dichter Wolle steht vor einer grünen Weide." width="1280" height="1920" loading="lazy" data-fallback="sheep">
+              <span class="teaser__label">Fritzi <span class="teaser__meta">Bergschaf, 4 Jahre</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="teaser" href="tiere.html#rosa">
+              <img
+                src="img/rosa.jpg"
+                alt="Weiße Ziege mit Hörnern, Hängeohren und langem Kinnbart steht auf einem sandigen Auslauf." width="1280" height="1000" loading="lazy" data-fallback="goat">
+              <span class="teaser__label">Rosa <span class="teaser__meta">Ziege, 6 Jahre</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="teaser" href="tiere.html#pauline">
+              <img
+                src="img/pauline.jpg"
+                alt="Schaf mit schwarzem Gesicht und heller Wolle ruht auf einer Strohschütte im Stall." width="1280" height="887" loading="lazy" data-fallback="sheep">
+              <span class="teaser__label">Pauline <span class="teaser__meta">Schaf, 11 Jahre</span></span>
+            </a>
+          </li>
+        </ul>
+
+        <p class="section__foot">
+          <a class="btn btn--primary" href="tiere.html">Alle Steckbriefe ansehen</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ Call to Action ============ -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <div>
+          <h2 id="cta-title">Ein Hof wie dieser lebt von vielen kleinen Beiträgen</h2>
+          <p>
+            Ein Ballen Heu kostet 5&nbsp;€, eine Hufpflege 35&nbsp;€, ein Winter für ein Schaf
+            rund 420&nbsp;€. Schon 10&nbsp;€ im Monat halten eine Nase satt.
+          </p>
+        </div>
+        <p class="cta__actions">
+          <a class="btn btn--primary" href="tiere.html#unterstuetzen">Pate werden</a>
+          <a class="btn btn--outline" href="ueber-uns.html#kontakt">Kontakt aufnehmen</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Fußbereich ============ -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__col">
+        <p class="site-footer__brand">Mimi's Rainbow Haven</p>
+        <p>Lebenshof für Schafe &amp; Ziegen.<br>Kein Streichelzoo. Ein Zuhause.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Fußzeilen-Navigation">
+        <h2 class="site-footer__title">Seiten</h2>
+        <ul class="site-footer__list">
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="tiere.html">Unsere Tiere</a></li>
+          <li><a href="ueber-uns.html">Über uns &amp; Kontakt</a></li>
+          <li><a href="tiere.html#unterstuetzen">Unterstützen</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__col">
+        <h2 class="site-footer__title">Hof besuchen</h2>
+        <address>
+          Mimi's Rainbow Haven<br>
+          Hofstelle (Besuch nur mit Termin)<br>
+          <a href="https://maps.app.goo.gl/F7PwFQZy1q6itz8a9" target="_blank" rel="noopener">
+            Standort in Google&nbsp;Maps öffnen
+          </a><br>
+          <a href="mailto:hallo@mimis-rainbow-haven.at">hallo@mimis-rainbow-haven.at</a>
+        </address>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>&copy; <span data-current-year>2026</span> Mimi's Rainbow Haven. &middot;
+        Bildnachweis: Platzhalterfotos von Wikimedia Commons (CC&nbsp;BY-SA), Details in
+        <a href="img/CREDITS.md">img/CREDITS.md</a>.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
